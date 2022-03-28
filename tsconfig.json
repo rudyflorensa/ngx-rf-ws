@@ -2,6 +2,12 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@ngx-rf/core": [
+        "dist/ngx-rf/core/ngx-rf-core",
+        "dist/ngx-rf/core"
+      ]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
